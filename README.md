@@ -1,1 +1,1 @@
-- [demo online](https://patricio-dsgn.github.io/lab-whatsapp/)
+- [demo online](https://patricio-dsgn.github.io/css-inputs/)
