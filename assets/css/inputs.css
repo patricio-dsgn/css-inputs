@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+h2{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 0 20px 0;
+}
+
+hr{
+  height: 1px;
+  background: #999;
+  margin: 20px;
+}
+
+.group-tb{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+
+
+
+.radio-v1-tb,
+.radio-v2-tb,
+.radio-v3-tb,
+.radio-v4-tb,
+.checkbox-v1-tb,
+.checkbox-v2-tb,
+.checkbox-v3-tb,
+.checkbox-v4-tb{
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkbox-v1-tb input{
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.checkbox-v1-tb label{
+  font-size: 18px;  
+}
+
+.checkbox-v1-tb .group-tb{
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+.checkbox-v2-tb input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-v2-tb label {
+  display: table;
+  margin: 4px 0;
+  background-color: #b3e2ea;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.checkbox-v2-tb input[type="checkbox"]:checked+label {
+  background-color: #12bcda;
+}
+
+
+
+
+
+
+
+
+
+
+
+.checkbox-v3-tb input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-v3-tb label {
+  display: table;
+  margin: 4px 0;
+  background-color: #b3e2ea;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.checkbox-v3-tb input[type="checkbox"]:checked+label {
+  background-color: #12bcda;
+}
+
+
+
+
+
+
+
+
+
+.radio-v1-tb input{
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.radio-v1-tb label{
+  font-size: 18px;  
+}
+
+.radio-v1-tb .group-tb{
+  margin: 10px 0;
+}
+
+
+
+
+.radio-v2-tb input[type="radio"] {
+  display: none;
+}
+
+.radio-v2-tb label {
+  display: table;
+  margin: 4px 0;
+  background-color: #b3e2ea;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.radio-v2-tb input[type="radio"]:checked+label {
+  background-color: #12bcda;
+}
+
+
+
+
+
+.radio-v3-tb input[type="radio"] {
+  display: none;
+}
+
+.radio-v3-tb label {
+  display: table;
+  margin: 4px 0;
+  background-color: #b3e2ea;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.radio-v3-tb input[type="radio"]:checked+label {
+  background-color: #12bcda;
+}
